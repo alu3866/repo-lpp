@@ -3,7 +3,7 @@
 class Radius
  
   def initialize ( per )
-    raise unless per.is_a?(Numeric)
+#     raise unless per.is_a?(Fixnum)
     @x = per
   end
  
